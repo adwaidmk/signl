@@ -1,0 +1,52 @@
+POST http://localhost:5000/app/signup
+Content-Type: application/json
+
+{
+    "fname":"jimin",
+    "lname":"jimi",
+    "email":"jimin123@gmail.com",
+    "password":"jimin123"
+}
+
+###
+GET http://localhost:5000/app/signin
+Content-Type: application/json
+
+{
+    
+    "email":"jimin@gmail.com",
+    "password":"bts"
+}
+###
+
+POST http://localhost:5000/app/signin
+Content-Type: application/json
+
+{
+    "name":"adish",
+    "username":"pedappen",
+    "email":"adish123@gmail.com",
+    "password":"adish123"
+}
+
+
+###
+
+GET http://localhost:5000/app/user
+Content-Type: application/json
+
+
+###
+POST http://localhost:5000/app/signin
+Content-Type: application/json
+
+
+{
+    "email":"jimin123@gmail.com",
+    "password":"jimin123"
+}
+
+
+
+###
+POST http://localhost:5000/app/logout
